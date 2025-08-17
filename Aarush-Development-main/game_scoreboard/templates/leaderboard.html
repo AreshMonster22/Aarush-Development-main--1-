@@ -8,15 +8,15 @@
         <h1>Saved Player Information</h1>
 
         <ol>
-            {%for player_name in player_information%}
+            {% for player_name in player_information %}
             <li>
                 <ul>
-                    <li>{{player_name.player_name}}</li>
-                    <li>{{player_name.game}}</li>
-                    <li>{{player_name.score}}</li>
+                    <li>{{ player_name.player_name }}</li>
+                    <li>{{ player_name.game }}</li>
+                    <li>{{ player_name.score }}</li>
                 </ul>
             </li>
-            {%endfor%}
+            {% endfor %}
         </ol>
 
         <a href="/">Go Back</a>
