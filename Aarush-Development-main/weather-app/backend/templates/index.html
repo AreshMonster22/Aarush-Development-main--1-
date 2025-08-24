@@ -5,7 +5,7 @@
     <div role="alert" class="alert">{{ error }}</div>
   {% endif %}
 
-  <form class="card" method="POST" action="{{ url_for('currentdata') }}" novalidate>
+  <form class="card" method="GET" action="{{ url_for('current') }}" novalidate>
     <label for="location" class="label">Location</label>
     <input
       type="text"
