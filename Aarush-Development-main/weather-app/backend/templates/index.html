@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}ProWeather — Search{% endblock %}
+{% block content %}
+  {% if error %}
+    <div role="alert" class="alert">{{ error }}</div>
+  {% endif %}
+
+  <form class="card" method="POST" action="{{ url_for('currentdata') }}" novalidate>
+    <label for="location" class="label">Location</label>
+    <input
+      type="text"
+      id="location"
+      name="location"
+      placeholder="e.g., Kolkata, London, 10001"
+      required
+      autocomplete="off"
+      class="input"
+    />
+    <button type="submit" class="btn">Get current weather</button>
+  </form>
+{% endblock %}
