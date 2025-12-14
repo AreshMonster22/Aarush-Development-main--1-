@@ -1,0 +1,31 @@
+body {
+    background: darkblue;
+    font-family: Comic Sans MS
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: red;
+    margin: 20px;
+    padding: 10px;
+}
+
+h2 {
+    color: white;
+}
+
+li {
+    color: yellow;
+    margin: 10px;
+    padding: 5px;
+}
+
+img {
+    border: 1px solid blueviolet;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+}
