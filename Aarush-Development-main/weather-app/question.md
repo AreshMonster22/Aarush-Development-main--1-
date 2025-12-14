@@ -49,6 +49,12 @@ What are the **best practices and recommendations** for building this project wi
 
 ---
 
+<<<<<<< HEAD
+=======
+## 📁 Folder Structure
+
+```
+>>>>>>> 4dcf21c8e8ffb98d657c056df4931591d9764b8f
 weather-app/
 ├── backend/
 │   ├── app.py               # Main Flask app
@@ -70,3 +76,7 @@ weather-app/
 ├── .gitignore               # Exclude .env, __pycache__, etc.
 ├── README.md                # Project description
 ├── requirements.txt         # Flask, requests, python-dotenv
+<<<<<<< HEAD
+=======
+```
+>>>>>>> 4dcf21c8e8ffb98d657c056df4931591d9764b8f
